@@ -132,35 +132,55 @@
                         <div class="row">
                             <div class="col-5 offset-1">
                                 <div class="form-group row">
-                                    <label class="col-4 col-form-label text-warning text-right" for="name1">이름</label>
-                                    <input type="text" id="name1" name="name1" class="form-control border-warning col-6">
+                                    <label class="col-4 col-form-label text-warning text-right" for="name2">이름</label>
+                                    <input type="text" id="name2" name="name" class="form-control border-warning col-6">
                                 </div> <!-- 이름 -->
 
                                 <div class="form-group row">
-                                    <label class="col-4 col-form-label text-right text-warning" for="number">
+                                    <label class="col-4 col-form-label text-right text-warning" for="jumin1">
                                     주민번호</label>
-                                    <input type="text" id="number1" name="number1" class="form-control border-warning col-3">
-                                    <label class="col-form-label">&nbsp; &mdash; &nbsp; </label>
-                                    <input type="password" id="number2" name="number2" class="form-control border-warning col-3">
+                                    <input type="text" id="jumin1" name="jumin1" class="form-control border-warning col-3">
+                                    <span class="col-form-label">&nbsp; &mdash; &nbsp; </span>
+                                    <input type="password" id="jumin2" name="jumin2" class="form-control border-warning col-3">
                                 </div> <!-- 주민번호 -->
 
                                 <div class="form-group row">
-                                    <div class="col-4 col-form-label custom-checkbox text-right">
-                                        <input type="checkbox" id="agree1" name="agree1" class="custom-control-input col-9">
-                                        <label class="custom-control-label text-warning">동의하실꺼?</label>
+                                    <label class="col-4"></label>
+                                        <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" id="chkjumin" name="chkjumin" class="custom-control-input" value="y">
+                                        <label class="custom-control-label text-warning" for="chkjumin">
+                                            동의하실꺼?</label>
                                     </div>
-                                </div><!-- -->
+                                </div><!-- 동의여부 -->
+                            </div> <!-- 왼쪽 -->
 
+                            <div class="col-5">
+                                <ul style="color:blue; font-weight: bold">
+                                    <li>실명확인 회원가입시 공개 게시판 이용이 가능합니다.</li>
+                                    <li>타인의 주민등록번호를 임의로 사용하면 '무슨무슨법'에 의해 3년 이하의 민초형 또는 1천만원 어치의 하와이안 피자가 부과될 수 있습니다</li>
+                                    <li>입력하신 주민등록번호는 별도 저장되지 않으며, 해달을 위한 기금 조성용으로만 사용됩니다 </li>
+                                    <li>개인정보보호법에 따라 이용 동의를 받을까요?</li>
+                                </ul>
+                            </div>
 
-
-
-
-
-
-
-
-                            </div> <!-- -->
                         </div> <!-- 2번 입력폼 -->
+
+
+                            <div class="row">
+                                <div class="col text-center">
+                                    <hr>
+                                     <button type="button" id="chk1btn" class="btn btn-primary">
+                                    <i class="fas fa-check"></i> 확인하기</button>
+                                <button type="button" id="cancel1btn" class="btn btn-danger">
+                                    <i class="fas fa-times"></i> 취소하기</button>
+                                </div>
+                            </div> <!-- 버튼 -->
+
+
+
+
+
+
                     </form>
                 </div> <!-- 실명확인 회원가입-->
 
